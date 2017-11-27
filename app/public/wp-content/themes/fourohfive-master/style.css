@@ -444,6 +444,22 @@ template {
   display: none;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.yellow {
+  color: #EA9610;
+}
+
+.blue {
+  color: #000F59;
+}
+
+.gray {
+  color: #232328;
+}
+
 .img-fluid {
   height: auto;
   max-width: 100%;
@@ -521,15 +537,117 @@ template {
     margin-right: 8px;
   }
 }
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
 .image_wrapper {
   position: relative;
 }
 
 .image_description {
+  font-size: 40px;
   position: absolute;
-  top: 32px;
+  top: 200px;
+  left: 500px;
+  color: white;
+}
+
+.person {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.person-description {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.work {
+  background-color: #f0f0f0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.work-title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.work-images {
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  padding-left: 50px;
+  max-width: 1920px;
+}
+
+.services {
+  padding-top: 70px;
+}
+
+.service {
+  position: relative;
+  margin: 0 auto;
+}
+
+.service-title {
+  margin: 0 auto;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.service-images {
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 65px;
+  padding-right: 65px;
+  position: relative;
+}
+
+.service-description {
+  position: absolute;
+  top: 150px;
   left: 100px;
   color: white;
+}
+
+.form {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+a {
+  color: #EA9610;
+}
+
+.pl-5 {
+  padding-left: 50px;
+}
+
+.pl-6 {
+  padding-left: 65px;
+}
+
+.pl-7 {
+  padding-left: 70px;
+}
+
+.pb-5 {
+  padding-bottom: 50px;
+}
+
+.pr-6 {
+  padding-right: 65px;
 }
 
 html {
@@ -544,4 +662,23 @@ html {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 12px;
+}
+
+.gform_heading {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #EA9610;
+}
+
+.gfield_label {
+  color: #EA9610;
+}
+
+#gform_submit_button_1 {
+  border-color: #EA9610;
+  background-color: #EA9610;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  text-align: center;
 }

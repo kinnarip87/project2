@@ -13,7 +13,7 @@
 			<?php /* Close the #content div from header.php */ ?>
 			</div>
 
-			<footer class="container">
+			<footer class="container text-center">
 				<p>Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. All rights reserved. </p>
 			</footer>
 

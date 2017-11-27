@@ -1,12 +1,89 @@
 // Styles for Homepage
+body {
+	font-family: 'Barlow', sans-serif;
+}
 
 .image_wrapper {
 	position: relative;
 }
 
 .image_description {
+	font-size: 40px;
 	position: absolute;
-		top: 32px;
+		top: 200px;
+		left: 500px;
+	color: white;
+}
+
+.person {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 250px;
+	padding-right: 250px;
+	display: flex; 
+	justify-content: center;
+}
+
+.person-description {
+	flex-wrap: wrap;
+}
+
+.work {
+	background-color: #f0f0f0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.work-title {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.work-images {
+	display: flex;
+	padding-top: 50px;
+	padding-left: 50px;
+	max-width: 1920px;
+}
+
+
+.services {
+	padding-top: 70px;
+}
+
+.service {
+	position: relative;
+	margin: 0 auto;
+}
+
+.service-title {
+	margin: 0 auto;
+	text-align: center;
+	justify-content: center;
+}
+
+.service-images {
+	display: flex;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 65px;
+	padding-right: 65px;
+	position: relative;
+}
+
+
+.service-description {
+	position: absolute;
+		top: 150px;
 		left: 100px;
-		color: white;
+	color: white;
+}
+
+.form {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+a {
+	color: #EA9610;
 }
